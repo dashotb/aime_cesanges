@@ -4,8 +4,6 @@ import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import '../../app/globals.css'
 import Image from "next/image";
-import profile from "@/img/profile.jpg"
-import profilePaint from "@/img/paint-profile.jpg"
 
 const Moi: NextPage = () => {
     return (
@@ -18,8 +16,8 @@ const Moi: NextPage = () => {
                     <div className=" bg-base-100 rounded-box rounded-lg rounded-tr-box flex min-h-[6rem] min-w-[18rem] max-w-4xl flex-wrap items-center justify-center border-radius  bg-top p-4 undefined">
                         <label className="swap swap-flip text-9xl ">
                             <input type="checkbox" />
-                            <Image src={profilePaint} width={180} height={220} alt="photo de profile" className="swap-on " />
-                            <Image src={profile} width={180} height={220} alt="photo de profile" className="swap-off " />
+                            <Image src="https://firebasestorage.googleapis.com/v0/b/projet-aime.appspot.com/o/web-app%2Fhome%2Fpaint-profile.JPG?alt=media&token=1dc4e1ab-fc49-4127-8398-c3ffac7fc117" width={180} height={220} alt="photo de profile" className="swap-on " />
+                            <Image src="https://firebasestorage.googleapis.com/v0/b/projet-aime.appspot.com/o/web-app%2Fhome%2Fprofile.JPG?alt=media&token=6abef32f-d732-4de1-8bbe-557c22693c4c" width={180} height={220} alt="photo de profile" className="swap-off " />
                         </label>
                     </div>
 
